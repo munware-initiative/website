@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MUNware - Resolution Manager</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background-color: #f9f9f9;
+    }
+    .section {
+      padding: 60px 0;
+    }
+    .section h2 {
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+    .navbar {
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      background: #f1f1f1;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+    .gallery img {
+      border-radius: 8px;
+      object-fit: cover;
+      width: 100%;
+      height: 200px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">MUNware</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#specs">Specifications</a></li>
+          <li class="nav-item"><a class="nav-link" href="#get">Get MUNware</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="bg-light text-center text-dark py-5" style="margin-top: 56px;">
+    <div class="container">
+      <h1 class="fw-bold display-5">MUNware</h1>
+      <p class="lead">The robust solution for managing MUN resolutions</p>
+      <a href="#get" class="btn btn-primary btn-lg mt-3">Get Started</a>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About MUNware</h2>
+      <p>MUNware is a modern platform that aims to resolve logistical issues for chairs, organizers, and delegates.</p>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="section bg-white">
+    <div class="container">
+      <h2>Features</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Easy Access to Resolutions</h5>
+              <p class="card-text">Empower delegates by allowing quick and efficient access to all resolutions.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Approval Panel Integration</h5>
+              <p class="card-text">Optimize your conference by allowing the approval panel to instantly have access and give feedback for resolutions.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Infinitely Customizable Resolutions</h5>
+              <p class="card-text">Store resolutions with any type of formatting, no restrictions applied.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Seamless Integration</h5>
+              <p class="card-text">Integrate MUNware with your conference without worrying about compatibility or changeover.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="section">
+    <div class="container">
+      <h2>Gallery</h2>
+      <div class="row g-3 gallery">
+        <div class="col-sm-6 col-md-4">
+          <img src="./mainmenu.png" alt="Main Menu">
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <img src="./resolutionpageadmin.png" alt="A resolution with admin menus">
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <img src="./resolutionpagedel.png" alt="A resolution for a delegate">
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <img src="https://via.placeholder.com/400x200?text=Teamwork" alt="Teamwork">
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <img src="https://via.placeholder.com/400x200?text=Resolution+Drafting" alt="Resolution Drafting">
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <img src="https://via.placeholder.com/400x200?text=Conference+Hall" alt="Conference Hall">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical Specs -->
+  <section id="specs" class="section">
+    <div class="container">
+      <h2>Technical Specifications</h2>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Fully web-based, works on any modern browser</li>
+        <li class="list-group-item">Supports multiple custom committees</li>
+        <li class="list-group-item">Lightweight, fast, and responsive interface</li>
+        <li class="list-group-item">Secure cloud storage for all resolutions</li>
+        <li class="list-group-item">Integration with Google Docs</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Get MUNware -->
+  <section id="get" class="section bg-white">
+    <div class="container text-center">
+      <h2>Get MUNware for Your Conference</h2>
+      <p class="mb-4">Ready to modernize your MUN experience? Contact us today to get access for your conference.</p>
+      <a class="btn btn-primary btn-lg" href="mailto:jiahrgtt@gmail.com?subject=MUNware%20Access%20Request">Request Access</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 The MUNware Initiative. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
